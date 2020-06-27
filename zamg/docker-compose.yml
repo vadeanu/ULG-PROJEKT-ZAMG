@@ -1,0 +1,43 @@
+version: "3"
+services:
+  apache_uni1:
+    image: httpd:2.4
+    container_name: 'apache_uni1'
+    ports:
+      - "8081:80"
+    volumes: 
+      - ./uni1/www:/usr/local/apache2/htdocs
+  apache_uni2:
+    image: httpd:2.4
+    container_name: 'apache_uni2'
+    ports:
+      - "8082:80"
+    volumes: 
+      - ./uni2/www:/usr/local/apache2/htdocs
+  apache_uni3:
+    image: httpd:2.4
+    container_name: 'apache_uni3'
+    ports:
+      - "8083:80"
+    volumes: 
+      - ./uni3/www:/usr/local/apache2/htdocs
+  mysql_database:
+    image: mysql:5.7
+    container_name: 'mysql_database'
+    ports:
+      - "13306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: zamg
+    volumes:
+      - ./mysql/init:/docker-entrypoint-initdb.d/:ro
+  zamgapp:
+    build: ./app
+    image: zamgapp:1.0
+    container_name: 'zamgapp'
+    links:
+      - mysql_database
+    ports:
+      - "5000:5000"
+
+
+

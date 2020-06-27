@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods version="3.6">
+	<identifier type="urn">urn:nbn:at:at-ubi:1-31006</identifier> 
+    <titleInfo>
+        <title>Berg</title>
+        <subTitle>Lauben</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="family">Biasi-von Berg</namePart>
+        <namePart type="given">Christina Sigrid</namePart>
+        <namePart type="date"></namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator">Verfasser</roleTerm>
+        </role>
+    </name>
+    <name type="Betreuer">Flora, Andreas</name>
+    <genre>Hochschulschrift</genre>
+    <note tpye="thesis">Masterarbeit -- Universität Innsbruck, 2019</note>
+    <language type="code">ger</language>
+    <place type="code">XA-AT</place>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Innsbruk</placeTerm>
+        </place>
+        <publisher></publisher>
+        <dateIssued type="production">2019</dateIssued>
+    </originInfo>
+    <abstract></abstract>
+    <note>Teil 1,2 eingereicht von Barbara Vigl, Teil 2 eingereicht von Christina Biasi-von Berg und Barbara Vigl</note>
+</mods>
