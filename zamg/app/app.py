@@ -17,8 +17,8 @@ mysql = MySQL(app)
 
 def getThesis():
     cursor = mysql.connection.cursor()
-    cursor.execute('SELECT urn, title, author, university FROM thesis')
-    results = cursor.fetchall()
+    cursor.execute('SELECT urn, title, author, supervisor, university FROM thesis')
+    results = cursor.fetchall()           
     cursor.close()
 
     return results
@@ -49,14 +49,14 @@ def crawlthesis():
                     print(thesis.inspect())
 
                     # die folgenden set methoden befüllen das Objekt technisch korrekt, damit es abgespeichert werden kann. Diese Zeilen müssen natürlich wieder raus
-                    thesis.setUrn("urn1")
-                    thesis.setTitle("titel1")
-                    thesis.setAuthor("author1")
-                    thesis.setLanguage("language1")
-                    thesis.setSupervisor("Supervisor1")
-                    thesis.setGenre("genre1")
-                    thesis.setUniversity("uni1")
-                    thesis.setProduction("1980")
+#                     thesis.setUrn("urn1")
+#                     thesis.setTitle("titel1")
+#                     thesis.setAuthor("author1")
+#                     thesis.setLanguage("language1")
+#                     thesis.setSupervisor("Supervisor1")
+#                     thesis.setGenre("genre1")
+#                     thesis.setUniversity("uni1")
+#                     thesis.setProduction("1980")
 
                     if thesis.isValid():
                         # check ob thesis schon eingefuegt
@@ -95,12 +95,14 @@ def generateHtml():
     list = getThesis()
     html = '<h1>Thesis</h1>'
     html = html + '<a href="/">Home</a> | <a href="/crawlthesis">crawl thesis</a> | <a href="/deletethesis">delete thesis</a><p/>'
-
+#SELECT urn, title, author, supervisor, university, production FROM thesis'
     if len(list) > 0:
         html = html + '<table border="1">'
-        html = html + '<tr><th>urn</th><th>title</th><th>author</th><th>university</th></tr>'
+        html = html + '<tr><th>urn</th><th>title</th><th>author</th><th>supervisor</th><th>university</th></tr>'
+        #html = html + '<tr><th>urn</th><th>title</th><th>author</th><th>supervisor</th><th>university</th><th>production</th></tr>'
         for item in list:
-            html = html + '<tr><td>' + item[0] + '</td><td>' + item[1] + '</td><td>' + item[2] + '</td><td>' + item[3] + '</td></tr>'
+            html = html + '<tr><td>' + item[0] + '</td><td>' + item[1] + '</td><td>' + item[2] + '</td><td>' + item[3] +'</td><td>' + item[4] + '</td></tr>'
+            #html = html + '<tr><td>' + item[0] + '</td><td>' + item[1] + '</td><td>' + item[2] + '</td><td>' + item[3] + '</td><td>' + item[4] + '</td><td>' + item[5] + '</td><td>' + item[6] + '</td></tr>'
         html = html + '</table>'
     else:
         html = html + '<p>keine Daten</p>' 

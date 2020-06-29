@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods version="3.6">
+    <identifier type='urn'>urn:nbn:at:at-ubg:1-77101</identifier> 
+    <titleInfo>
+        <title>Validierung eines Open Source CFD-Schneeverfrachtungsmodells mittels Terrestrial Laserscans</title>
+        <subTitel/>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="family">Decker</namePart>
+        <namePart type="given">Maria</namePart>
+        <namePart type="date"></namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator">Verfasser</roleTerm>
+        </role>
+    </name>
+    <name type="Betreuer">Kaemle, Norbert</name>
+    <name type="Betreuer2"/>
+    <extent>XVI, 72 Seiten</extent>
+    <genre>Hochschulschrift</genre>
+    <note type="thesis">Masterarbeit -- Universität Graz, 2016</note>
+    <language type="code">ger</language>
+    <place type="code">XA-AT</place>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Graz</placeTerm>
+        </place>
+        <publisher></publisher>
+        <dateIssued type="production">2016</dateIssued>
+    </originInfo>
+    <abstract>
+        This thesis aims to validate a snowdirft model using terrestrial laserscanning (TLS). The used snowdirft model should in the future be used as a part of a model cascade, which is developed in a project for transdisciplinary optimization of avalanche risk management (ALARM) from the Styrian Department of the Central Institute for Meteorology and Geodynamics (ZAMG), with the aim of improving avalanche prognoses. The snowdrift model developed by Schneiderbauer und Prokop (2011) is based on CFD and is for the first time solved with the open source software package OpenFOAM. For this thesis three TLS campaigns have been analyzed and taken into consideration for the validation. It was found that TLS campaigns with short measurement intervals and good measurements of meteorological conditions are best fitted for validation. For the validation of the snowdrift model the TLS campaign from 20.11. to 27.11.2008 at the area of Wannengrat (SUI) was modeled. Since the wind field is the most sensitive parameter when modeling snowdrift using CFD, special attention has been given to the setting of the models boundary conditions and the resulting flow conditions. Therefore, a wind-library was established which interconnects measured and modeled wind conditions in order to set an optimal wind field. Despite some deficiencies in the model a spatial correlation between modeled and measured snowdrift of R = 0.30 was found for the considered area of the south east slope of the Chüpfenflüe. Although the model provides promising results, the shown deficiencies should be removed before using the model operationally.  
+    </abstract>
+    <note></note>
+</mods>
+

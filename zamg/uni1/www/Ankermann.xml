@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods version="3.6">
+	<identifier type="urn">urn:nbn:at:at-ubi:1-33907</identifier> 
+    <titleInfo>
+        <title>Orographic and atmospheric factors governing localized heavy snowfall south of the Swiss Jura</title>
+        <subTitle>numerical case study and sensitivity experiments</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="family">Ankermann</namePart>
+        <namePart type="given">Jürg</namePart>
+        <namePart type="date"></namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator">Verfasser</roleTerm>
+        </role> 
+    </name>
+    <name type="Betreuer">Gohm, Alexander</name>
+    <name type="Betreuer2">Schug, Joachim</name>
+    <extent>iv, 62 Seiten</extent>  
+    <genre>Hochschulschrift</genre>
+    <note type="thesis">Masterarbeit -- Universität Innsbruck, 2019</note>
+    <language type="code">eng</language>
+    <place type="code">XA-AT</place>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Innsbruk</placeTerm>
+        </place>
+        <publisher></publisher>
+        <dateIssued type="production">2019</dateIssued>
+    </originInfo>
+    <abstract></abstract>
+    <note></note>
+</mods>

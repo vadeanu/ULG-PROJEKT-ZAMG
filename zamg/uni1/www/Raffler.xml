@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods version="3.6">
+	<identifier type="urn">urn:nbn:at:at-ubi:1-51907</identifier> 
+    <titleInfo>
+        <title>Atmospheric boundary layer structure in the Inn valley</title>
+        <subTitle>a performance evaluation of the numerical weather prediction model COSMO</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="family">Raffler</namePart>
+        <namePart type="given">Philipp Reinhard</namePart>
+        <namePart type="date"></namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator">Verfasser</roleTerm>
+        </role>    
+    </name>
+    <name type="Betreuer">Rotach, Mathias W.</name>
+    <name type="Betreuer2"></name>
+    <extent>iv, 97 Seiten</extent>  
+    <genre>Hochschulschrift</genre>
+    <note type="thesis">Masterarbeit -- Universität Innsbruck, 2019</note>
+    <language type="code">eng</language>
+    <place type="code">XA-AT</place>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Innsbruk</placeTerm>
+        </place>
+        <publisher></publisher>
+        <dateIssued type="production">2019</dateIssued>
+    </originInfo>
+    <abstract>The usage of high-resolution numerical weather prediction (NWP) models is an important component of modern weather forecasting. Higher computational power allows a
+        
+        finer grid resolution, which increases the forecast quality of those models. However, over mountainous terrain, the underlying topography is not sufficiently resolved, and the physical parametrizations are based on assumptions for horizontally homogeneous flat (HHF) terrain. Consequently, the correct simulation of the atmospheric boundary layer (ABL) is a challenge for such models.
+        
+        This thesis evaluates the performance of the high-resolution model COSMO in representing the ABL over complex terrain, namely in the Inn Valley, Austria. Therefore, measurements of ground-based observation stations and processed airborne data on three different days in the late summer of 2013 (29 August, 30 August, and 11 September) are compared with the model output. The analysis of the vertical structure is based on the variables of potential temperature, specific humidity and turbulent kinetic energy (TKE). Furthermore, simulations are performed with a one-dimensional turbulence parametrization, and a hybrid turbulence parametrization. In general, the model is able to reproduce the main features of the observed vertical structure of potential temperature, specific humidity, and TKE. These include the characteristic three-layer structure of potential temperature, the decrease of moisture with height, and the highest TKE values close to the surface. Nevertheless, there are differences between simulations and observations: The model does not capture the observed diurnal heating, and therefore a colder valley atmosphere is simulated. Furthermore, the model struggles to reproduce the pronounced up-valley wind and additionally overestimates the latent heat flux. Moreover, an underestimation of the absolute values of TKE by the model is present. Also, the consideration of the hybrid turbulence parametrization has no significant influence on the performance of the NWP model COSMO.
+        
+        Nevertheless, the model succeeds in well reproducing the overall atmospheric structure. However, embedded processes on a small scale over complex terrain are a challenge, which is due to the coarse resolution ( x = 1.1 km) and the usage of over HHF developed parametrization schemesne. Lapse rate is generally high in winter and low in summer, except for North Africa, where it is at the highest values in summer. Monthly diurnal averages (monthly averages over all hours of the day) of MUCAPE exceed 200 J kg-1 in the Mediterranean basin in summer and early autumn, but do not reach this threshold in other regions. Monthly diurnal averages of DLS, on the other hand, exceed 10m s-1 (the lower limit for multicells) just for locations outside the basin in summer and early autumn. The monthly-averaged daily cycle of MUCAPE varies most in summer. It peaks over continents in the morning and over the sea at nighttime. In summer, in the Adriatic Sea and in the plains of central Europe, two peaks in the monthly-averaged diurnal cycles are observed and the analysis of mean vertical profiles highlights that the peak that generates convection depends on the environmental situation (for example the sounding with less convective inhibition). LR7050 shows small diurnal variability, except when thunderstorms form and make that part of the troposphere moist-adiabatically neutral. Diurnal variations of mixing ratio over the lowest kilometer are about 0.5 g kg-1 (equivalent to a warming of 1.2 K when condensed) with higher values during the afternoon over continents, which lowers the lifting and cumulus condensation levels and increases CAPE. The diurnal variation of DLS is only about 1-2 m s-1.</abstract>
+    <note></note>
+</mods>
+

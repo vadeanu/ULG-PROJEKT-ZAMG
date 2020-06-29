@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods version="3.6">
+	<identifier type='urn'>urn:nbn:at:at-ubi:1-40418</identifier>
+    <titleInfo>
+        <title>Evaluation of the physical SNOWPACK model under Arctic conditions</title>
+        <subTitle>an applicability study for the area around Longyearbyen, Svalbard</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="family">Hatvan</namePart>
+        <namePart type="given">Veronika</namePart>
+        <namePart type="date"></namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator">Verfasser</roleTerm>
+        </role>    
+    </name>
+    <name type="Betreuer">Maussion, Fabien</name>
+    <name type="Betreuer2"/>
+    <extent>vi, 100 Seiten</extent>  
+    <genre>Hochschulschrift</genre>
+    <note type="thesis">Masterarbeit -- Universität Innsbruck, 2019</note>
+    <language type="code">eng</language>
+    <place type="code">XA-AT</place>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Innsbruk</placeTerm>
+        </place>
+        <publisher></publisher>
+        <dateIssued type="production">2019</dateIssued>
+    </originInfo>
+    <abstract>As a basis for potential future applications of physical snowpack models in the area around the arctic town of Longyearbyen on Svalbard this work performs an inves- tigation of the main external input parameters determining the simulation output of the SNOWPACK model in this arctic environment. The investigation provides a first assessment of the model capacities to reproduce observed snowpack structure, based on currently limited meteorological input data. For this purpose an obser- vational dataset of eleven manual snowpack investigations was collected in March 2017 and utilised as a benchmark for model output. Meteorological input data was provided by two automatic weather stations in the area, complemented by ERA5 reanalysis data. A sensitivity study of the model output was performed with regard to systematic and random errors in the input data, including the parameters: air temperature, relative humidity, wind speed, incoming longwave radiation, incoming shortwave radiation, precipitation and ground surface temperature. Later, the results of the sensitivity study were used in a series of modelling attempts to reproduce observed snow cover characteristics in the area. Air temperature and precipitation were identified as the most relevant parameters influencing model output in terms of snow height, snow temperatures and stratig- raphy on the basis of the sensitivity analysis. Additionally, the relevance of wind speed became evident while attempting to reproduce observed patterns in the snow. However, the effect of wind on the spatial variability of snow height as a local feature could not be sufficiently represented by the model in its applied setup when pro- vided with non-local input data. Overall, the limited meteorological input data did not provide a sufficient basis and enough local details for the model to successfully reproduce the observed snow cover features at various observation sites. Future application of snowpack models in the area of Longyearbyen will depend on the availability of a full set of local meteorological measurements as a reliable basis for snowpack modelling. Specifically, a continuous time series of local snow height and wind measurements would provide crucial information for the assessment of local snow drift influence and supplement meteorological input data.</abstract>
+    <note></note>
+</mods>
+
+

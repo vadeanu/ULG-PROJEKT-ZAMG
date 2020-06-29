@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods version="3.6">
+    <identifier type='urn'>urn:nbn:at:at-ubw:1-29463.21369.165762-0</identifier> 
+    <titleInfo>
+        <title>Dual-polarisiertes Wetterradar versus Mikroregenradar</title>
+        <subTitle></subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="family">Plank</namePart>
+        <namePart type="date">Theresa Roswitha</namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator">Verfasser</roleTerm>
+        </role>    
+    </name>
+    <name type="Betreuer">Steinacker, Reinhold</name>
+    <name type="Betreuer2"></name>
+    <extent>61, XV Seiten</extent>  
+    <genre>Hochschulschrift</genre>
+    <note type="thesis">Diplomarbeit -- Universität Wien/Fakultät für Geowissenschaften Geographie und Astronomie, 2014</note>
+    <language type="code">eng</language>
+    <place type="code">XA-AT</place>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Wien</placeTerm>
+        </place>
+        <publisher></publisher>
+        <dateIssued type="production">2014</dateIssued>
+    </originInfo>
+    <abstract>
+    Since the year 2011 the Austrian weather radar network was adapted to dual-polarization technique, starting with the weather radar at Rauchenwarth. Because of minor experience with dual-polarization radars and their innovative possibilities in Austria, it ist important to create reference values to permit suitable evaluation and interpretation of the radar data. By comparing reflectivity profiles of dual-polarization radar and micro rain radar data with a higher resolution in the vertical, one executes a permanent possibility for comparison to obtain e.g. data misinterpretation or measurement errors. Different criteria were chosen for a selection of eight stratiform and convective cases to be considered in a representative comparison of the weather radar at Rauchenwarth and the micro rain radar at Trafelberg. According to that vertical profiles of the micro rain radar were collated with appropriate weather radar elevation angles. Subsequently the radar data was compared with distrometer measurements at the ground for reference issues. After matching filtered and unfiltered radar reflectivity signals one gets some indication of signal processing and filtering techniques. The data analysis illustrates shading effects at the outer branch of the Alps for the lowest elevation angle of the weather radar at Rauchenwarth. The second issue of this thesis pertains precipitation attenuation correction by means of differential phase shift. By an example case the applied ZPHI-method ist demonstrated and interrelated with the micro rain radar reflectivity measurement as a reference. Both the dual-polarized weather radar and the micro rain radar have strong and weak points depending on prevailing conditions according to the measurement. A combination of both systems is recommended to exploit the full potential and benefit of the advantages of a particular radar. Otherwise the particular topics of this thesis should be further investigated and discussed scientifically.
+    </abstract>
+    <note></note>
+</mods>
+
+
+
+

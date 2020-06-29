@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods version="3.6">
+    <identifier type='urn'>urn:nbn:at:at-ubw:1-27569.51702.927369-8</identifier> 
+    <titleInfo>
+        <title>Variabilität des atmosphärischen Energiehaushalts der Tropen, berechnet für die Periode 1939-66 aus Reanalysedaten</title>
+        <subTitle></subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="family">Landgraf</namePart>
+        <namePart type="given">Martin</namePart>
+        <namePart type="date"></namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator">Verfasser</roleTerm>
+        </role>    
+    </name>
+    <name type="Betreuer">Haimberger, Leopold</name>
+    <name type="Betreuer2"></name>
+    <extent>80 Seiten</extent>  
+    <genre>Hochschulschrift</genre>
+    <note type="thesis">Diplomarbeit -- Universität Wien/Fakultät für Geowissenschaften Geographie und Astronomie, 2016</note>
+    <language type="code">ger</language>
+    <place type="code">XA-AT</place>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Wien</placeTerm>
+        </place>
+        <publisher></publisher>
+        <dateIssued type="production">2016</dateIssued>
+    </originInfo>
+    <abstract>This thesis examines the interannual variability of the tropical atmospheric energy budget in association with ENSO for the period 1939-66. The new reanalyses ERA-PreSAT (additionally assimilated upper air observations) and ERA-20C of ECMWF (European Centre for Medium-Range Weather Forecasts) were used. The vertically integrated horizontal divergences of total and latent energy transport (TEDIV and LEDIV) were calculated according to the direct method under consideration of mass flux correction. The longitude-time variability (Hovmöller diagrams) of the ERA-PreSAT energy flux divergences shows besides ENSO related patterns also pronounced inhomogeneities, which however do not occur in ERA-20C. A connection with the assimilated upper air observations is plausible. Furthermore rather inhomogeneous structures and an irrealistic meridional gradient are visible in ERA-PreSAT TEDIV EOF-1 instead of an ENSO signal. Based on an optimized equal sampling SNHT the zonally resolved difference time series of ERA-PreSAT and ERA-20C (TEDIV and LEDIV anomalies) were tested for breakpoints (inhomogeneities). On the basis of 5 pronounced discontinuities the ERA-PreSAT TEDIV and LEDIV time series were homogenized at every grid point between 30°S and 30°N. After the homogenization an ENSO related structure emerges as originally expected in ERA-PreSAT TEDIV EOF-1 without an irrealistic meridional gradient. In the Hovmöller diagrams characteristic dipole and quadrupole patterns for the homogenized divergences of energy fluxes are apparent especially during the strong El Niño events 1939-42, 1957/58 and 1965/66 and with reversed sign during La Niña 1942/43 and 1955/56. The extraordinary El Niño event 1939-42 is supported by anomalies higher than +8 to +20 W m-2 (TEDIV) and less than -30 W m-2 (LEDIV), which continuously occur over the tropical central/eastern Pacific for a period of 1.5 to 2 years. Linear cross correlation and regression analyses reveal a statistically significant linear relationship between ERA-PreSAT (ERA-20C) energy export anomalies and ENSO (Niño 3.4) for the period 1939-66. Compared to ERA-Interim (1979-2011) this relationship is a little less distinctive with lower significance. An eastward extension or propagation of the anomalies over the tropical Pacific during El Niño (La Niña) emerges in the ERA-Interim Hovmöller diagrams and in the first two LEDIV EOFs (as El Niño Modoki). For ERA-PreSAT (ERA-20C) this is -if at all- hardly detectable. Partially even a westward propagation occurs (especially after 1950) in association with the special SST evolution over the tropical pacific before and after the climate shift 1976/77. The resulting so-called "`Central Pacific"' (CP) El Niños could reinforce the negative phase of the NAO via a special teleconnection.</abstract>
+    <note></note>
+</mods>
+
+
+

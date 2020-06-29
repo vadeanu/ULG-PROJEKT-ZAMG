@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods version="3.6">
+    <identifier type='urn'>urn:nbn:at:at-ubg:0-41188</identifier> 
+    <titleInfo>
+        <title>Topographisch-archäologische Untersuchung zur Belagerung der Burg Falkenberg, MG Straß im Straßertale (Niederösterreich), im Winter 1299/1300</title>
+        <subTitel/>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="family">Vadeanu</namePart>
+        <namePart type="given">Christopher</namePart>
+        <namePart type="date"></namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator">Verfasser</roleTerm>
+        </role>
+    </name>
+    <name type="Betreuer">Doneus, Michale</name>
+    <name type="Betreuer2">Kühtreiber, Thomas</name>
+    <extent>210 Seiten</extent>
+    <genre>Hochschulschrift</genre>
+    <note type="thesis">Masterarbeit -- Universität Wien, 2019</note>
+    <language type="code">ger</language>
+    <place type="code">XA-AT</place>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Wien</placeTerm>
+        </place>
+        <publisher></publisher>
+        <dateIssued type="production">2019</dateIssued>
+    </originInfo>
+    <abstract>
+        Ziel dieser Masterarbeit war es, die Belagerung der Burg Falkenberg im Winter 1299/1300, die durch zwei schriftliche Quellen historisch belegt ist, mit archäologischen und topo-graphischen Mitteln in Form einer Untersuchung des Umfeldes modellhaft nachzuzeichnen. Bei den Quellen handelt es sich um die Reimchronik des steirischen Chronisten Ottokar und um die Annalen Bernhard Links. Beide Texte geben Auskunft über die beteiligten Parteien und den Verlauf der Belagerung. Die Basis der topographischen Untersuchung bildete ein digitales Geländemodel für das Umfeld der Burg Falkenberg. Mit Hilfe von Hangneigungskarten, schattierten Bildern und „Raster surfaces“ konnten mögliche Belagerungsstellungen herausgearbeitet werden. Unter anderem konnte dabei im Westen der Burg eine Belagerungsschanze ausgemacht werden. Der Fokus der Arbeit lag allerdings auf der Erstellung von Sichtbarkeitskarten und dem Einbezug möglicher Reich¬weiten. Sichtbarkeitskarten geben Auskunft über die Standortswahl und zeigen raumtaktische Vorteile auf. Besonders in Kombination von Sichtfeld und möglicher Reichweite mit Hilfe der „viewshed2-Funktion“ konnte ein mögliches Schussfeld dargestellt werden. Um die historischen Quellen mit archäologischen Quellen in Beziehung zu setzen, war es zunächst wichtig, die im 13. und 14. Jahrhundert zum Einsatz gekommenen Belagerungs-waffen näher zu beschreiben und ihre ballistische Leistung herauszuarbeiten. Die so gewonnenen Erkenntnisse bildeten zusammen mit den archäologischen Streufunden, welche von einem Privatsammler mittels Metalldetektor im Umfeld der Burg aufgefunden wurden, die Grundlage der anschließenden Forschung im ArcGIS. Besonders mit Hilfe der Geschossspitzen, welchen zusammen mit den anderen Funden ein eigenes Kapitel gewidmet ist, konnte die Echtheit der historischen Quelle archäologisch verifiziert werden. 
+    </abstract>
+    <note></note>
+</mods>
+

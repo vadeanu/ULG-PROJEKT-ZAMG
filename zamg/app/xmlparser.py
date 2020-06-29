@@ -1,23 +1,45 @@
 import xml.etree.ElementTree as ET
 from thesis import Thesis
+from crawler import Crawler
+
+#c = Crawler()
+#c.crawl("http://localhost:8081/BergLauben.xml")
+#XMLInhalt = c.getText()
+
 
 class XmlParser:
 
     def readXML(self, xmldata):
 
+        #obj = Thesis()
+        #root = ET.fromstring(xmldata)
+        
+        #fängt korrupte dateien auf, falls Fehler in XML-files 
         obj = Thesis()
-        root = ET.fromstring(xmldata)
+        try:
+            root = ET.fromstring(xmldata)
+        except:
+            print('Datensatz fehlerhaft')
+            print(xmldata)
+            return obj        
+
+
 
         family = ""
         given = ""
 
+
+
         for element in root:
+
+
             if element.tag == "identifier":
                 URN = element.text
                 obj.setUrn(URN)
             if str(element.attrib) == "{'type': 'thesis'}":
-                # print('yesssssss')
+                #print('yesssssss')
                 thesis = element.text
+                #print (thesis)
                 genre = thesis.split(' -- ')[0]
                 obj.setGenre(genre)
                 year = thesis.split(' -- ', )[1]
@@ -31,7 +53,7 @@ class XmlParser:
                     subTitle = subelement.text
                     obj.setSubtitle(subTitle)
                 if str(subelement.attrib) == "{'type': 'family'}":
-                    print("treffer")
+                    #print("treffer")
                     family = subelement.text
                 if str(subelement.attrib) == "{'type': 'given'}":
                     given = subelement.text
@@ -54,5 +76,9 @@ class XmlParser:
 
             autor = family + ", " + given
             obj.setAuthor(autor)
+        #Einrückung verändert
+        return obj
 
-            return obj
+#parser = XmlParser()
+#thesis = parser.readXML(XMLInhalt)
+#thesis.inspect()

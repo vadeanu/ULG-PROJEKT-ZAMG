@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods version="3.6">
+    <identifier type='urn'>urn:nbn:at:at-ubg:1-40101</identifier> 
+    <titleInfo>
+        <title>Geschlechtsrollen erlernen mit Physikbüchern</title>
+        <subTitel>eine Analyse ausgewählter österreichischer Physikbücher aus der Gender Perspektive</subTitel>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="family">Seagull</namePart>
+        <namePart type="given">Ondas</namePart>
+        <namePart type="date"></namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator">Verfasser</roleTerm>
+        </role>
+    </name>
+    <name type="Betreuer">Haagen-Schützenhöfer, Claudia</name>
+    <name type="Betreuer2"/>
+    <extent>250 Seiten</extent>
+    <genre>Hochschulschrift</genre>
+    <note type="thesis">Diplomarbeit -- Universität Graz, 2016</note>
+    <language type="code">ger</language>
+    <place type="code">XA-AT</place>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Graz</placeTerm>
+        </place>
+        <publisher></publisher>
+        <dateIssued type="production">2016</dateIssued>
+    </originInfo>
+    <abstract>
+        Gender and gender roles are social constructions that are learned through social interactions. Hegemonic and traditional gender roles are constantly reinforced by repeated performance. The domain of physics is masculinized. Is this also part of physics education in school? How do textbooks at school contribute to that?In the present study, five selected Austrian physics textbooks are analysed on the basis of current scientific literature on the subject. For that purpose, a picture analysis is combined with a rough analysis of textbook texts. Various aspects are analysed both quantitatively and qualitatively. Best practice examples as well as less successful implementations are described.The following key questions are considered: Are the physics textbooks used in Austrian schools in 2016 free of gender bias? Are language and contexts in physics textbooks chosen in such a way as to enable similar success for both male and female students? Do physics textbooks problematize prevailing gender roles? Does a female (co-)authorship affect the approach to the representation of gender roles?To obtain a deeper insight into those approaches that show a positive change over time, one of the textbooks is exemplary compared to its earlier editions issued over the past 30 years. In the overall view, recommendations for a further development of textbooks regarding the representation of gender roles are summarized.
+    </abstract>
+    <note></note>
+</mods>
+

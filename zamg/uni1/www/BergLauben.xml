@@ -2,8 +2,8 @@
 <mods version="3.6">
 	<identifier type="urn">urn:nbn:at:at-ubi:1-31006</identifier> 
     <titleInfo>
-        <title>Berg</title>
-        <subTitle>Lauben</subTitle>
+        <title>Berg.Lauben</title>
+        <subTitle/>
     </titleInfo>
     <name type="personal">
         <namePart type="family">Biasi-von Berg</namePart>
@@ -14,9 +14,19 @@
             <roleTerm type="text" authority="marcrelator">Verfasser</roleTerm>
         </role>
     </name>
+    <name type="personal">
+        <namePart type="family">Vigl</namePart>
+        <namePart type="given"> Barbara</namePart>
+        <namePart type="date"></namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator">Verfasser</roleTerm>
+        </role>
+    </name>
     <name type="Betreuer">Flora, Andreas</name>
+    <name type="Betreuer2"/>
     <genre>Hochschulschrift</genre>
-    <note tpye="thesis">Masterarbeit -- Universität Innsbruck, 2019</note>
+    <note type="thesis">Masterarbeit -- Universität Innsbruck, 2019</note>
     <language type="code">ger</language>
     <place type="code">XA-AT</place>
     <originInfo>

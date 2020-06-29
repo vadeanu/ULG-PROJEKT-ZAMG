@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods version="3.6">
+    <identifier type="urn">urn:nbn:at:at-ubi:1-60115</identifier>
+    <titleInfo>
+        <title>Estimating Glacier Ice Thickness with Machine Learning</title>
+        <subTitle></subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="family">Castellani</namePart>
+        <namePart type="given">Matteo</namePart>
+        <namePart type="date"></namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator">Verfasser</roleTerm>
+        </role>    
+    </name>
+    <name type="Betreuer">Maussion, Fabien</name>
+    <name type="Betreuer2"></name>
+    <extent>iv, 196 Seiten</extent>  
+    <genre>Hochschulschrift</genre>
+    <note type="thesis">Masterarbeit -- Universität Innsbruck, 2020</note>
+    <language type="code">eng</language>
+    <place type="code">XA-AT</place>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Innsbruk</placeTerm>
+        </place>
+        <publisher></publisher>
+        <dateIssued type="production">2020</dateIssued>
+    </originInfo>
+    <abstract></abstract>
+    <note>Arbeit an der Bibliothek noch nicht eingelangt - Daten nicht geprüft</note>
+</mods>
+
+
+

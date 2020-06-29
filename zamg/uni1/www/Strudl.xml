@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods version="3.6">
+	<identifier type="urn">urn:nbn:at:at-ubi:1-03307</identifier> 
+    <titleInfo>
+        <title>Globale Sensitivitätsanalyse und Kalibrierung eines hydrologischen Modells für das vergletscherte Einzugsgebiet Riffelsee</title>
+        <subTitle></subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="family">Strudl</namePart>
+        <namePart type="given">Markus</namePart>
+        <namePart type="date"></namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator">Verfasser</roleTerm>
+        </role>    
+    </name>
+    <name type="Betreuer">Kaser, Georg</name>
+    <name type="Betreuer2">Gurgiser, Wolfgang</name>
+    <extent>vi, 176 Seiten</extent>  
+    <genre>Hochschulschrift</genre>
+    <note type="thesis">Masterarbeit -- Universität Innsbruck, 2018</note>
+    <language type="code">ger</language>
+    <place type="code">XA-AT</place>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Innsbruk</placeTerm>
+        </place>
+        <publisher></publisher>
+        <dateIssued type="production">2018</dateIssued>
+    </originInfo>
+    <abstract></abstract>
+    <note></note>
+</mods>
+
+
+

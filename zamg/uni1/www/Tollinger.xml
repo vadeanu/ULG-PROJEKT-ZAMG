@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods version="3.6">
+	<identifier type="urn">	urn:nbn:at:at-ubi:1-30153</identifier> 
+    <titleInfo>
+        <title>Unravelling the March 1972 northwest Greenland windstorm</title>
+        <subTitle>Numerical case study and sensitivity experiments</subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="family">Tollinger</namePart>
+        <namePart type="given">Mathias</namePart>
+        <namePart type="date"></namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator">Verfasser</roleTerm>
+        </role>    
+    </name>
+    <name type="Betreuer">Gohm, Alexander</name>
+    <name type="Betreuer2">Jonassen, Marius</name>
+    <extent>viii, 54 Blätter</extent>  
+    <genre>Hochschulschrift</genre>
+    <note type="thesis">Masterarbeit -- Universität Innsbruck, 2018</note>
+    <language type="code">eng</language>
+    <place type="code">XA-AT</place>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Innsbruk</placeTerm>
+        </place>
+        <publisher></publisher>
+        <dateIssued type="production">2018</dateIssued>
+    </originInfo>
+    <abstract></abstract>
+    <note></note>
+</mods>
+

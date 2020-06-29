@@ -27,6 +27,9 @@ class Thesis:
         return self.subtitle
 
     def setSubtitle(self, subtitle):
+        #um abzufangen, wenn kein datensatz vorhanden
+        if subtitle is None:
+            subtitle = ""
         self.subtitle = subtitle
 
     def getAuthor(self):
@@ -51,6 +54,8 @@ class Thesis:
         return self.sec_supervisor
 
     def setSec_supervisor(self, sec_supervisor):
+        if sec_supervisor is None:
+            sec_supervisor = ""
         self.sec_supervisor = sec_supervisor
 
     def getGenre(self):
@@ -75,6 +80,8 @@ class Thesis:
         return self.abstract
 
     def setAbstract(self, abstract):
+        if abstract is None:
+            abstract = ""
         self.abstract = abstract
 
     def isValid(self):
@@ -103,4 +110,5 @@ class Thesis:
         print("genre: " + self.genre)
         print("university: " + self.university)
         print("is valid: " + str(self.isValid()))
+        return "Test"
 

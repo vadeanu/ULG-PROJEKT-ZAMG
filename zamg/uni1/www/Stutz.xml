@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods version="3.6">
+	<identifier type="urn">urn:nbn:at:at-ubi:1-6181</identifier> 
+    <titleInfo>
+        <title>Transport of Saharan Dust to the Sonnblick Observatory</title>
+        <subTitle></subTitle>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="family">Stutz</namePart>
+        <namePart type="given">Andreas</namePart>
+        <namePart type="date"></namePart>
+        <role>
+            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+            <roleTerm type="text" authority="marcrelator">Verfasser</roleTerm>
+        </role>    
+    </name>
+    <name type="Betreuer">Nickus, Ulrike</name>
+    <name type="Betreuer2">Kasper-Giebl, Anne</name>
+    <extent>iv, 96 Seiten</extent>  
+    <genre>Hochschulschrift</genre>
+    <note type="thesis">Masterarbeit -- Universität Innsbruck, 2017</note>
+    <language type="code">eng</language>
+    <place type="code">XA-AT</place>
+    <originInfo>
+        <place>
+            <placeTerm type="text">Innsbruk</placeTerm>
+        </place>
+        <publisher></publisher>
+        <dateIssued type="production">2017</dateIssued>
+    </originInfo>
+    <abstract></abstract>
+    <note></note>
+</mods>
+
+
